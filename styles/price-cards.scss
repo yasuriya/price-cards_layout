@@ -1,0 +1,135 @@
+.price-card {
+  margin-right: 18px;
+  height: 770px;
+  width: 380px;
+  background: $background-color-dark-lightgrey;
+
+  &__header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    text-align: center;
+    color: $color-white;
+    overflow: hidden;
+  }
+  &__header-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+  }
+  &__header-subtitle {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 100;
+  }
+  &__header-mark {
+    position: absolute;
+    top: 25px;
+    right: -30px;
+    width: 140px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $background-color-red;
+    transform: rotate(45deg);
+  }
+
+  &__price-block {
+    height: 105px;
+    line-height: 105px;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    color: $color-white;
+  }
+
+  &__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 116px;
+  }
+  &__description-text {
+    width: 327.49px;
+    height: 36px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18.29px;
+    text-align: center;
+    color: $color-white;
+  }
+
+  &__product-list {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    list-style-type: none;
+  }
+  &__product-list-item {
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    height: 50px;
+    color: $color-white;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  &__product-list-item:nth-child(odd) {
+    background-color: $background-color-dark-grey;
+  }
+  &__product-list-item_green {
+    margin-right: 22px;
+    height: 13px;
+    width: 15px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  }
+  &__product-list-item_blue {
+    margin-right: 22px;
+    height: 13px;
+    width: 15px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  }
+  &__product-list-item_orange {
+    margin-right: 22px;
+    height: 13px;
+    width: 15px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 39px;
+    padding: 0;
+    height: 40px;
+    width: 154.63px;
+    border: none;
+    border-radius: 20px;
+  }
+  &__button-text {
+    color: $color-white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__button:hover {
+    cursor: pointer;
+  }
+}
+
+.accent-green {
+  background-color: $color-green;
+}
+.accent-blue {
+  background-color: $color-blue;
+}
+.accent-orange {
+  background-color: $color-orange;
+}
