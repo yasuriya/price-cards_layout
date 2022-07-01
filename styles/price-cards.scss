@@ -4,7 +4,7 @@
   width: 380px;
   background: $background-color-dark-lightgrey;
 
-  &__header {
+  &__title {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -14,16 +14,16 @@
     text-align: center;
     overflow: hidden;
   }
-  &__header-title {
+  &__title-main {
     font-size: 35px;
     font-weight: 700;
     line-height: 43px;
   }
-  &__header-subtitle {
+  &__title-subtitle {
     font-size: 20px;
     line-height: 24px;
   }
-  &__header-mark {
+  &__title-mark {
     position: absolute;
     top: 25px;
     right: -30px;
@@ -37,7 +37,7 @@
     transform: rotate(45deg);
   }
 
-  &__price-block {
+  &__price {
     height: 105px;
     line-height: 105px;
     font-size: 55px;
@@ -60,13 +60,13 @@
     text-align: center;
   }
 
-  &__product-list {
+  &__options-list {
     margin: 0;
     padding: 0;
     height: 300px;
     list-style-type: none;
   }
-  &__product-list-item {
+  &__options-list-item {
     display: flex;
     align-items: center;
     padding-left: 22px;
@@ -74,29 +74,29 @@
     font-weight: 300;
     font-size: 15px;
   }
-  &__product-list-item:nth-child(odd) {
+  &__options-list-item:nth-child(odd) {
     background-color: $background-color-dark-grey;
   }
-  &__product-list-item_green {
+  &__options-list-item_green {
     margin-right: 22px;
     height: 13px;
     width: 15px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   }
-  &__product-list-item_blue {
+  &__options-list-item_blue {
     margin-right: 22px;
     height: 13px;
     width: 15px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
   }
-  &__product-list-item_orange {
+  &__options-list-item_orange {
     margin-right: 22px;
     height: 13px;
     width: 15px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
   }
 
-  &__button {
+  &__order-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,12 +108,13 @@
     border: none;
     border-radius: 20px;
   }
-  &__button-text {
+  &__order-btn-text {
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
+    color: $color-white;
   }
-  &__button:hover {
+  &__order-btn:hover {
     cursor: pointer;
   }
 }

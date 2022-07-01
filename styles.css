@@ -4,7 +4,7 @@
   width: 380px;
   background: #334247;
 }
-.price-card__header {
+.price-card__title {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,16 +14,16 @@
   text-align: center;
   overflow: hidden;
 }
-.price-card__header-title {
+.price-card__title-main {
   font-size: 35px;
   font-weight: 700;
   line-height: 43px;
 }
-.price-card__header-subtitle {
+.price-card__title-subtitle {
   font-size: 20px;
   line-height: 24px;
 }
-.price-card__header-mark {
+.price-card__title-mark {
   position: absolute;
   top: 25px;
   right: -30px;
@@ -36,7 +36,7 @@
   background-color: #dc3f45;
   transform: rotate(45deg);
 }
-.price-card__price-block {
+.price-card__price {
   height: 105px;
   line-height: 105px;
   font-size: 55px;
@@ -57,13 +57,13 @@
   line-height: 18.29px;
   text-align: center;
 }
-.price-card__product-list {
+.price-card__options-list {
   margin: 0;
   padding: 0;
   height: 300px;
   list-style-type: none;
 }
-.price-card__product-list-item {
+.price-card__options-list-item {
   display: flex;
   align-items: center;
   padding-left: 22px;
@@ -71,28 +71,28 @@
   font-weight: 300;
   font-size: 15px;
 }
-.price-card__product-list-item:nth-child(odd) {
+.price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__product-list-item_green {
+.price-card__options-list-item_green {
   margin-right: 22px;
   height: 13px;
   width: 15px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card__product-list-item_blue {
+.price-card__options-list-item_blue {
   margin-right: 22px;
   height: 13px;
   width: 15px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card__product-list-item_orange {
+.price-card__options-list-item_orange {
   margin-right: 22px;
   height: 13px;
   width: 15px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
-.price-card__button {
+.price-card__order-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,12 +104,13 @@
   border: none;
   border-radius: 20px;
 }
-.price-card__button-text {
+.price-card__order-btn-text {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+  color: #ffffff;
 }
-.price-card__button:hover {
+.price-card__order-btn:hover {
   cursor: pointer;
 }
 
@@ -134,7 +135,7 @@ html {
   color: #ffffff;
 }
 
-.container {
+body {
   display: flex;
   flex-direction: row;
   justify-content: center;
