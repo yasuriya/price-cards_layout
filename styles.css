@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 128px;
+  height: 130px;
   text-align: center;
   overflow: hidden;
 }
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 115px;
+  height: 116px;
 }
 .price-card__description-text {
   width: 327.49px;
