@@ -4,6 +4,9 @@
   width: 380px;
   background: $background-color-dark-lightgrey;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  &:nth-child(3) {
+    margin-right: 0;
+  }
   &__title {
     position: relative;
     display: flex;
@@ -56,7 +59,7 @@
     height: 36px;
     font-weight: 300;
     font-size: 15px;
-    line-height: 18.29px;
+    line-height: 18px;
     text-align: center;
   }
 
@@ -104,7 +107,7 @@
     margin-top: 39px;
     padding: 0;
     height: 40px;
-    width: 154.63px;
+    width: 155px;
     border: none;
     border-radius: 20px;
   }
