@@ -1,4 +1,4 @@
-<h1>Layout Foundation Project</h1>
+<h1>Layout Price Cards</h1>
 <a href="https://yasuriya.github.io/price-cards_layout">Site link</a> <br>
 
 The tech stack is: 
