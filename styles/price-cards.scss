@@ -49,17 +49,10 @@
   }
 
   &__description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 116px;
-  }
-  &__description-text {
-    width: 327.49px;
-    height: 36px;
+    margin: 40px 26px;
+    line-height: 18px;
     font-weight: 300;
     font-size: 15px;
-    line-height: 18px;
     text-align: center;
   }
 
@@ -74,6 +67,7 @@
     align-items: center;
     padding-left: 22px;
     height: 50px;
+    line-height: 18px;
     font-weight: 300;
     font-size: 15px;
   }
