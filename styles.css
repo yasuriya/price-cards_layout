@@ -79,25 +79,19 @@
 .price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__options-list-item_green {
+.price-card__checkmark {
   display: inline-block;
   margin-right: 22px;
   height: 13px;
   width: 15px;
+}
+.price-card__checkmark_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
-.price-card__options-list-item_blue {
-  display: inline-block;
-  margin-right: 22px;
-  height: 13px;
-  width: 15px;
+.price-card__checkmark_blue {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
 }
-.price-card__options-list-item_orange {
-  display: inline-block;
-  margin-right: 22px;
-  height: 13px;
-  width: 15px;
+.price-card__checkmark_orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
 .price-card__order-btn {
