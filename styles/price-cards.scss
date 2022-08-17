@@ -46,6 +46,15 @@
     font-size: 55px;
     font-weight: 700;
     text-align: center;
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
   }
 
   &__description {
@@ -107,6 +116,15 @@
     width: 155px;
     border: none;
     border-radius: 20px;
+    &_green {
+      background-color: $color-green;
+    }
+    &_blue {
+      background-color: $color-blue;
+    }
+    &_orange {
+      background-color: $color-orange;
+    }
   }
   &__order-btn-text {
     font-size: 14px;
@@ -117,14 +135,4 @@
   &__order-btn:hover {
     cursor: pointer;
   }
-}
-
-.accent-green {
-  background-color: $color-green;
-}
-.accent-blue {
-  background-color: $color-blue;
-}
-.accent-orange {
-  background-color: $color-orange;
 }

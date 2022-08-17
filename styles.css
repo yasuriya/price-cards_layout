@@ -47,6 +47,15 @@
   font-weight: 700;
   text-align: center;
 }
+.price-card__price_green {
+  background-color: #5bb189;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
+}
 .price-card__description {
   margin: 40px 26px;
   line-height: 18px;
@@ -103,6 +112,15 @@
   border: none;
   border-radius: 20px;
 }
+.price-card__order-btn_green {
+  background-color: #5bb189;
+}
+.price-card__order-btn_blue {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn_orange {
+  background-color: #ec632a;
+}
 .price-card__order-btn-text {
   font-size: 14px;
   font-weight: 400;
@@ -111,18 +129,6 @@
 }
 .price-card__order-btn:hover {
   cursor: pointer;
-}
-
-.accent-green {
-  background-color: #5bb189;
-}
-
-.accent-blue {
-  background-color: #3a6ba5;
-}
-
-.accent-orange {
-  background-color: #ec632a;
 }
 
 * {
