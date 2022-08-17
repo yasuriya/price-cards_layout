@@ -1,7 +1,7 @@
 <h1>Layout Price Cards</h1>
 <h2> <a href="https://yasuriya.github.io/price-cards_layout"><b>Site link</b></a> </h2>
 
-<h3>Layout supports desktop (up-to-1400) version</h3>
+<h3>Layout supports desktop (up-to-1440) version</h3>
 
  <h4>The tech stack is: </h4>
 <ul> 
