@@ -1,5 +1,5 @@
 <h1>Layout Price Cards</h1>
-<a href="https://yasuriya.github.io/price-cards_layout">Site link</a> <br>
+<a href="https://yasuriya.github.io/price-cards_layout"><b>Site link</b></a> <br>
 
 The tech stack is: 
 <br>
